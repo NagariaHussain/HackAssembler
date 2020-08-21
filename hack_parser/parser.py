@@ -66,6 +66,9 @@ class Parser:
                 self.comp = tokens[0]
                 self.jump = tokens[1]
 
+    def reset_to_begin(self):
+        self.current_command_index = 0
+
 def clean(line):
     # Handeling inline comments
     if "//" in line:

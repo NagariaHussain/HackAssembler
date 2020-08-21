@@ -54,6 +54,14 @@ class CodeTranslationText(TestCase):
     def test_c_instruction_without_jump(self):
         c = code.Code()
         self.assertEqual(c.handle_c_instruction("A-D", "M", None), "1110000111001000")
+
+    def test_c_instruction_1(self):
+        c = code.Code()
+        self.assertEqual(c.handle_c_instruction("M+1", "AM", None), "1111110111101000")
+    
+    def test_c_instruction_2(self):
+        c = code.Code()
+        self.assertEqual(c.handle_c_instruction("A+1", "A", None), "1110110111100000")
     
 
 if __name__ == '__main__':

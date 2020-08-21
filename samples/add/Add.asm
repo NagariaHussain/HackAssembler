@@ -5,7 +5,7 @@
 
 // Computes R0 = 2 + 3  (R0 refers to RAM[0])
 
-@2
+@SCREEN
 D=A
 @3
 D=D+A

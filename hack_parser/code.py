@@ -13,8 +13,8 @@ COMP_MAPPINGS = {
     "-A":  "0110011",
     "-M":  "1110011",
     "D+1": "0011111",
-    "A+1": "0011111",
-    "M+1": "1011111",
+    "A+1": "0110111",
+    "M+1": "1110111",
     "D-1": "0001110",
     "A-1": "0110010",
     "M-1": "1110010",
@@ -53,15 +53,6 @@ DEST_MAPPINGS = {
     "AD": "110",
     "AMD": "111"
 }
-
-# Predefined symbols tabel
-# PREDEFINED = {}
-
-# with open("predefined.txt", "r") as pre_symbol_file:
-#     for line in pre_symbol_file:
-#         label, ram_address = tuple(line.rstrip("\n").split(" "))
-#         # Adding to the hash map
-#         PREDEFINED[label] = ram_address
 
 # Code class: Carries out the translation
 class Code:
