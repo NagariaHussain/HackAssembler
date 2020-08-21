@@ -42,4 +42,5 @@ language into the binary code understood by the Hack hardware platform.
 Feel free to contact me for queries:
 
 Email: hussainbhaitech@gmail.com
+
 Instagram: @NagariaHussain
